@@ -1,0 +1,14 @@
+---
+- name: Gather Cisco IOS device facts
+  hosts: all
+  gather_facts: no
+
+  tasks:
+    - name: Gather facts using ios_facts module
+      cisco.ios.ios_facts:
+        gather_subset: all
+
+    - name: Debug output
+      debug:
+        var: ansible_net_version
+
