@@ -1,25 +1,25 @@
-IOS-switcher:
+IOS_switcher:
   hosts:
-    IOS-switch-1:
+    IOS_switch_1:
       ansible_host: 10.170.0.231
-    IOS-switch-2:
+    IOS_switch_2:
       ansible_host: 10.170.0.232
 
-IOS-XE-switcher:
+IOS_XE_switcher:
   hosts:
-    IOS-XE-switch-3:
+    IOS_XE_switch_3:
       ansible_host: 10.170.0.233
-    IOS-XE-switch-4:
+    IOS_XE_switch_4:
       ansible_host: 10.170.0.234
 
-IOS-rutere:
+IOS_rutere:
   hosts:
-    IOS-ruter-1:
+    IOS_ruter_1:
       ansible_host: 10.170.0.251
 
-IOS-XE-rutere:
+IOS_XE_rutere:
   hosts:
-    IOS-XE-ruter-2:
+    IOS_XE_ruter_2:
       ansible_host: 10.170.0.252
-    IOS-XE-ruter-3:
+    IOS_XE_ruter_3:
       ansible_host: 10.170.0.253

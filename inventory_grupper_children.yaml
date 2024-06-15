@@ -1,0 +1,28 @@
+all:
+  children:
+    switcher:
+      children:
+        IOS_switcher:
+          hosts:
+            IOS_switch_1:
+              ansible_host: 10.170.0.231
+            IOS_switch_2:
+              ansible_host: 10.170.0.232
+        IOS_XE_switcher:
+          hosts:
+            IOS_XE_switch_3:
+              ansible_host: 10.170.0.233
+            IOS_XE_switch_4:
+              ansible_host: 10.170.0.234
+    rutere:
+      children:
+        IOS_rutere:
+          hosts:
+            IOS_ruter_1:
+              ansible_host: 10.170.0.251
+        IOS_XE_rutere:
+          hosts:
+            IOS_XE_ruter_2:
+              ansible_host: 10.170.0.252
+            IOS_XE_ruter_3:
+              ansible_host: 10.170.0.253
